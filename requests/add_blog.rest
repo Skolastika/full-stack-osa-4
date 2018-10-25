@@ -7,3 +7,27 @@ content-type: application/json
   "url": "https://blog.mlab.com/",
   "likes": 1
 }
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "Google Blog",
+  "author": "Google",
+  "url": "https://www.blog.google.com/",
+  "likes": 3
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "The Wordpress.com Blog",
+  "author": "Wordpress",
+  "url": "https://en.blog.wordpress.com/",
+  "likes": 2
+}
