@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "mLab Blog",
+  "author": "mLab",
+  "url": "https://blog.mlab.com/",
+  "likes": 1
+}
